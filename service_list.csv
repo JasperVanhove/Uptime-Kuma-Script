@@ -1,6 +1,6 @@
-name,url,monitor_type,interval,retry_interval,max_retries
-Socius,https://intranet.socius.be/web/,MonitorType.HTTP,60,30,3
-Comma,https://comma.somko.be/web,MonitorType.HTTP,61,31,4
-Meditech,https://odoo.meditech-pharma.com/web/,MonitorType.HTTP,62,32,5
-Page,http://51.254.201.99:8090/web/,MonitorType.HTTP,63,33,6
-Telecom-IT,https://81.95.117.166:8069/web/,MonitorType.HTTP,64,34,7
+monitor_name,url,monitor_type,interval,retry_interval,max_retries
+Socius,https://intranet.socius.be/web/,http,60,30,3
+Comma,https://comma.somko.be/web,http,61,31,4
+Meditech,https://odoo.meditech-pharma.com/web/,http,62,32,5
+Page,http://51.254.201.99:8090/web/,http,63,33,6
+Telecom-IT,https://81.95.117.166:8069/web/,http,64,34,7
