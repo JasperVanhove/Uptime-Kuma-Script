@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="json" />
+            <item index="1" class="java.lang.String" itemvalue="TA-lib" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="purchase.requisition._get_template_id" />
+          <option value="account.analytic.line._modify_field_unit_price" />
+          <option value="tuple.supertrend_period" />
+          <option value="tuple.supertrend_multiplier" />
+          <option value="mail.thread.sudo" />
+          <option value="report.eeg_analytic_project_export_import.exp._write_company_line" />
+          <option value="report.eeg_analytic_project_export_import.exp._add_extra_columns" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
